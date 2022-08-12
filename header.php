@@ -31,7 +31,7 @@
             <a href="https://pompes-funebres-musulmanes.fr/" style="text-decoration: none;">
                 <h1><?= bloginfo('name') ?></h1>
             </a>
-            <h2><?= bloginfo('description') ?> - <span> <?= $ville ?></span></h2>
+            <h2><?= bloginfo('description') ?> </h2>
         </section>
         <section class="telephone">
             <div class="icons">

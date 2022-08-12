@@ -4,7 +4,7 @@
    background-color: white;
    display: flex;
    flex-direction: column;
-   font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-family: "Roboto", sans-serif;
    margin-left: auto;
    margin-right: auto;
  }
@@ -14,16 +14,19 @@
  /********************************************/
  header {
 
-   background-color: rgb(13, 7, 59);
+   background-color: white;
    display: flex;
    flex-direction: column;
-/*    border-bottom: 1px solid #000;
- */   position: fixed;
+   /*    border-bottom: 1px solid #000;
+ */
+   position: fixed;
    width: 100%;
-   z-index: 5;
-color: rgb(13, 7, 59);
+   z-index: 15;
+   color: rgb(13, 7, 59);
 
  }
+
+  /*******************Logo_Header*******************/
 
  header .logo_header {
    display: flex;
@@ -35,37 +38,34 @@ color: rgb(13, 7, 59);
    background-color: rgb(13, 7, 59);
    color: white;
    text-align: center;
- }
-
- .logo_header span {
-   font-style: italic;
 
  }
 
  header h1 {
    font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
    padding-bottom: 0%;
-   text-decoration: none ;
+   text-decoration: none;
    color: rgb(255, 255, 255);
 
  }
-  
 
-  
 
  header h2 {
    font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
    font-size: 1rem;
  }
 
-
+  /*******************Logo_telephone*******************/
 
  header .telephone {
 
    display: flex;
-   padding-left: 0%;
+   padding-left: 5%;
    margin-left: auto;
    margin-right: auto;
+   width: 100%;
+   justify-content: center;
+
 
  }
 
@@ -78,6 +78,7 @@ color: rgb(13, 7, 59);
  .icons {
    left: -5%;
    display: flex;
+   margin-right: 2%;
    flex-direction: column;
  }
 
@@ -113,23 +114,24 @@ color: rgb(13, 7, 59);
 
  .logo_out {
    padding-top: 1%;
-   width: 100%;
    display: flex;
    flex-direction: column;
    font-size: 19px;
    font-family: 'League Spartan', sans-serif;
    text-decoration: none;
    padding-left: 3%;
-   color: white;
+   color: rgb(13, 7, 59);
+
+
 
  }
 
  .tel_nav {
    font-weight: bold;
-   font-size: 23px;
+   font-size: 25px;
    text-decoration: none;
-   color:  antiquewhite;
-  }
+   color: rgb(13, 7, 59);
+ }
 
 
 
@@ -140,7 +142,7 @@ color: rgb(13, 7, 59);
  /********************************************/
 
  main {
-   background-color:antiquewhite;
+   background-color: antiquewhite;
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
@@ -153,174 +155,186 @@ color: rgb(13, 7, 59);
    flex-direction: column;
  }
 
- /********************************************/
- /*******************Cadre global*********************/
- /********************************************/
-
+  
+ /*******************Cadre un*********************/
+ 
  .cadre_un {
 
    display: flex;
    flex-wrap: wrap;
    width: 97%;
    height: 100vh;
-   background-color: white;
+   background-color: rgb(79, 75, 107);
    opacity: 0.9;
    margin-left: auto;
    margin-right: auto;
-   box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
+   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
    padding: 5% 0% 5% 0%;
  }
+
+
+/***************************/
+ /********Intro*********/
+ /***************************/
+ .intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+}
+
+.text_intro_ask {
+  width: 90%;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(61, 57, 52);
+  position: relative;
+  top: 9px;
+  padding: 1%;
+  padding-left: 2%;
+  color: white;
+  font-size: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+  z-index: 2;
+}
+
+.text_intro_answer {
+
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  background-color: rgb(255, 242, 226);
+  position: relative;
+  top: 7px;
+  padding: 2% 1% 2% 2%;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+/*   border: 1px solid rgb(14, 13, 13);
+ */  z-index: 1;
+
+}
+
+.intro span {
+  font-weight: bold;
+
+}
+
+.images_un {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+  border: 1 solid white;
+  top: 1%;
+  position: relative;
+  box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
+  z-index: 0;
+}
+ 
+
+  /*******************Cadre deux*********************/
+
 
  .cadre_deux {
    display: flex;
    flex-wrap: wrap;
    width: 97%;
    height: 130vh;
-   background-color: rgb(13, 7, 59);
+   background-color: rgb(255, 255, 255);
    margin-left: auto;
    margin-right: auto;
-   box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
+   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
    color: white;
  }
 
- .cadre_trois {
-   display: flex;
-   flex-wrap: wrap;
-   width: 97%;
-   height: 100vh;
-   background-color: white;
-   margin-left: auto;
-   margin-right: auto;
-   box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   padding: 5% 0% 5% 0%;
-   margin-bottom: 3%;
-
- }
-
- /***************************/
- /********Intro*********/
- /***************************/
- .intro {
-   display: flex;
-   flex-direction: column;
-   margin-top: auto;
-   margin-bottom: auto;
-   margin-left: auto;
-   margin-right: auto;
-   width: 100%;
-   text-align: center;
-   padding: 2% 0% 2% 0%;
- }
-
- .text_intro_ask {
-   width: 90%;
-   opacity: 1;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: rgb(61, 57, 52);
-   position: relative;
-   top: 9px;
-   padding: 1%;
-   padding-left: 2%;
-   color: white;
-   font-size: 30px;
-   border: 1px solid white;
-
-   box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   z-index: 2;
- }
-
- .text_intro_answer {
-
-   width: 90%;
-   margin-left: auto;
-   margin-right: auto;
-   opacity: 1;
-   background-color: rgb(255, 242, 226);
-   position: relative;
-   top: 7px;
-   padding: 1%;
-   padding-left: 2%;
-
-   padding-top: 2%;
-   color: rgb(0, 0, 0);
-   font-size: 24px;
-   border: 1px solid rgb(14, 13, 13);
-   z-index: 1;
-
- }
-
- .intro span {
-   font-weight: bold;
-
- }
-
-
-
- /***************************/
+/***************************/
  /********Services*********/
  /***************************/
 
  .services {
-   margin-top: auto;
-   margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 4% 0% 4% 0%;
+}
+
+.intro_services {
+
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  background-color: rgb(255, 242, 226);
+  position: relative;
+  top: 7px;
+  padding: 1%;
+  padding-left: 2%;
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  box-shadow: rgb(44, 62, 80) 0px -15px 15px -15px;z-index: 1;
+  text-align: center;
+  z-index: 2;
+
+}
+
+.liste_services {
+
+  width: 85%;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(61, 57, 52);
+  position: relative;
+  padding: 4% 4% 3% 1%;
+  color: white;
+  box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+
+}
+
+.images_deux {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  top: -1%;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px 0px, rgba(0, 0, 0, 0.09) 0px 4px 2px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px 0px, rgba(0, 0, 0, 0.09) 0px 16px 8px 0px, rgba(0, 0, 0, 0.09) 0px 32px 16px 0px;
+  z-index: 0;
+  /*   opacity: 0.9;
+*/
+}
+
+   /*******************Cadre trois*********************/
+
+ .cadre_trois {
    display: flex;
    flex-direction: column;
+   width: 97%;
+   background-color: rgb(79, 75, 107);
    margin-left: auto;
    margin-right: auto;
-   width: 100%;
-   padding: 4% 0% 4% 0%;
-
- }
-
- .intro_services {
-
-   width: 90%;
-   margin-left: auto;
-   margin-right: auto;
-   opacity: 1;
-   background-color: rgb(255, 242, 226);
-   position: relative;
-   top: 7px;
-   padding: 1%;
-   padding-left: 2%;
-   color: rgb(0, 0, 0);
-   font-size: 24px;
-   border: 1px solid rgb(14, 13, 13);
-   z-index: 1;
-   box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.77);
-   -moz-box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.77);
-   -webkit-box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.77);
-   z-index: 2;
-
- }
-
- .liste_services {
-
-   width: 85%;
-   opacity: 1;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: rgb(61, 57, 52);
-   position: relative;
-   padding: 4% 4% 3% 1%;
+   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+   padding: 5% 0% 5% 0%;
+   margin-bottom: 3%;
    color: white;
-   border: 1px solid white;
-   /*  box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-  -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-  -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77); */
-   z-index: 1;
-   font-size: 18px;
+
 
  }
+ 
 
  /***************************/
  /********Contact*********/
@@ -329,13 +343,11 @@ color: rgb(13, 7, 59);
  .contact {
    display: flex;
    flex-direction: column;
-   margin-top: auto;
-   margin-bottom: auto;
+
    margin-left: auto;
    margin-right: auto;
    width: 100%;
    text-align: center;
-   padding: 2% 0% 2% 0%;
 
  }
 
@@ -344,144 +356,199 @@ color: rgb(13, 7, 59);
    opacity: 1;
    margin-left: auto;
    margin-right: auto;
-   background-color: rgb(61, 57, 52);
+   background-color: rgb(255, 255, 255);
    position: relative;
    top: 1%;
    padding: 1%;
    padding-left: 2%;
-   color: white;
+   color: rgb(79, 75, 107);
    font-size: 24px;
-   border: 1px solid white;
-   box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
+   box-shadow: rgb(44, 62, 80) 0px -15px 15px -15px;z-index: 1;
+
    z-index: 2;
  }
 
  .text_contact {
 
-   width: 90%;
+   width: 100%;
    margin-left: auto;
    margin-right: auto;
-   opacity: 1;
-   background-color: rgb(255, 242, 226);
    position: relative;
    top: 1%;
-   padding: 1%;
-   padding-left: 2%;
-
-   padding-top: 2%;
-   color: rgb(0, 0, 0);
-   font-size: 18px;
-   border: 1px solid rgb(14, 13, 13);
+   padding: 3% 4% 3% 7%;
+   font-size: 16px;
+   text-align: center;
    z-index: 1;
+  color: darkgray;
+  
+ }
+
+  /********Mail*********/
+
+ .contact_mail {
+   padding: 7%;
+   text-decoration: none;
+   
+ }
+
+
+ .intro_mail {
+
+   display: flex;
+   flex-direction: column;
 
  }
 
- .formulaire_contact {
+ .mail {
+   display: flex;
+   flex-direction: row;
+   padding-top: 3%;
+   padding-bottom: 3%;
+ }
+ .mail a {
+margin-top: auto;
+   margin-bottom: auto;
+   font-size: 21px;
+ }
 
-   width: 90%;
-   margin-left: auto;
-   margin-right: auto;
-   opacity: 1;
-   background-color: rgb(255, 255, 255);
-   position: relative;
-   top: 7px;
-   padding: 1%;
-   padding-left: 2%;
+ .mail img {
+  padding-right: 5%;   
+   }
+
+  /********Phone & fax*********/
+ 
+ .phone_fax {
+   padding: 7%;
+
+   display: flex;
+   flex-direction: column;
+ }
+
+ .phone_fax div {
+
+   display: flex;
+   flex-direction: row;
+   padding-top: 3%;
+   padding-bottom: 3%;
+ }
+
+ .phone_fax p {
+   width: 80%;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-left: 3%;
+ }
+
+
+ .whatsapp img {
+
+   width: 40px;
+   height: 40px;
+ }
+
+ .number {
+   font-size: 30px;
+
+ }
+
+  
+ /********Adresse*********/
+  
+
+ .localisation {
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+
+   display: flex;
    padding-top: 2%;
-   color: rgb(0, 0, 0);
-   font-size: 18px;
-   border: 1px solid rgb(14, 13, 13);
-   border-radius: 13px;
-   box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
-     -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
-   z-index: 1;
-
- }
-
- .testform {
-   padding: 2%;
- }
-
-
- /*************** ************/
- /********Forumlaire*********/
- /***************************/
-
- .form {
-   width: 33%;
-   height: auto;
-   padding: 2%;
-   background-color: aliceblue;
-   opacity: 0.9;
+   flex-direction: column;
+   overflow: hidden;
+   padding-bottom: 6.25%;
    position: relative;
-
  }
 
- /***************************/
- /******Images*********/
- /***************************/
+ .localisation iframe {
 
- .images_un {
-   margin-left: auto;
-   margin-right: auto;
-   width: 70%;
-   height: auto;
-   border: 1 solid white;
-   top: 1%;
-   position: relative;
-   box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-   z-index: 0;
-   /*    opacity: 0.8;
- */
- }
+   width: auto;
 
- .images_deux {
-   margin-left: auto;
-   margin-right: auto;
-   width: 30%;
-   height: auto;
-   top: -1%;
-   border: 1 solid white;
-   position: relative;
-   box-shadow: 0px 0px 10px 4px rgb(248, 248, 248);
-   -moz-box-shadow: 0px 0px 10px 4px rgb(248, 248, 248);
-   -webkit-box-shadow: 0px 0px 10px 4px rgb(248, 248, 248);
-   z-index: 0;
-   /*   opacity: 0.9;
- */
- }
-
-
- .images_trois {
-   margin-left: auto;
-   margin-right: auto;
-   width: 60%;
-   height: auto;
-   top: -1%;
-   border: 1 solid white;
-   position: relative;
    box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
    -moz-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
    -webkit-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-   z-index: 0;
-   /*   opacity: 0.9;
- */
+ }
+
+ .bloc_adresse {
+   color: white;
+   padding: 5%;
+   display: flex;
+   flex-direction: column;
  }
 
 
+ .bloc_adresse div {
+
+   display: flex;
+   flex-direction: row;
+   padding-top: 3%;
+   padding-bottom: 3%;
+ }
+
+ .bloc_adresse p {
+   width: 100%;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-left: 3%;
+ }
+
+ .bloc_adresse img {
+
+   width: 40px;
+   height: 40px;
+ }
+
+ .adress {
+   font-size: 21px;
+
+ }
+
+ 
+ .images_trois {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  top: -1%;
+  border: 1 solid white;
+  position: relative;
+  box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+  -moz-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+  -webkit-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+  z-index: 0;
+  /*   opacity: 0.9;
+*/
+}
+ 
+ 
+ 
 
  footer {
-
+border-top: 1px solid rgb(255, 255, 255);
+  height: 40%;
    font-size: 23px;
    text-align: center;
    padding: 2% 1% 2% 1%;
- }
+   background-color: antiquewhite;
+
+  }
+
+
+  /***************************/
+ /********@Media > 600*********/
+ /***************************/
 
  @media screen and (min-width: 600.98px) {
+
+   /*******************Header*******************/
+
    header {
 
      display: flex;
@@ -490,6 +557,17 @@ color: rgb(13, 7, 59);
      padding: 2% 0% 2% 0%;
    }
 
+   header h1 {
+    font-size: 25px;
+    color: rgb(13, 7, 59);
+
+  }
+
+
+  header h2 {
+    font-size: 22px;
+  }
+
    header .logo_header {
 
      width: 50%;
@@ -497,27 +575,15 @@ color: rgb(13, 7, 59);
      padding-left: 3%;
      margin-left: auto;
      margin-right: auto;
-     background-color: rgb(13, 7, 59);
-     color:white;
+     background-color: white;
+     color: rgb(13, 7, 59);
    }
 
    header .telephone {
      width: 50%;
      padding-left: 13%;
    }
-
-   header h1 {
-    color:white;
-
-     font-size: 25px;
-
-   }
-
-   header h2 {
-     font-size: 22px;
-   }
-
-
+ 
 
    .logo_out {
      width: 80%;
@@ -528,6 +594,7 @@ color: rgb(13, 7, 59);
      left: 24%;
    }
 
+   /*******************Cadre un*********************/
 
    .intro {
      flex-direction: column;
@@ -544,6 +611,8 @@ color: rgb(13, 7, 59);
 
    }
 
+       /*******************Cadre trois*********************/
+
    .cadre_trois {
 
      margin-bottom: 3%;
@@ -552,74 +621,101 @@ color: rgb(13, 7, 59);
 
  }
 
+
+/***************************/
+/********@Media > 900*********/
+/***************************/
+
  @media screen and (min-width: 900px) {
 
+ /*******************Header*******************/
 
-   header {
-     padding: 1% 0% 1% 0%;
+header {
+    padding: 1% 0% 1% 0%;
 
-   }
+  }
+  
+  header h1 {
+
+  font-size: 27px;
+
+}
+
+  header h2 {
+    font-size: 20px;
+  }
 
    header .telephone {
      padding-right: 4%;
-flex-direction: row-reverse;
-color: white;
+     flex-direction: row-reverse;
+     color: white;
 
    }
-  .icons{
 
-    display: flex;
-    flex-direction: row;
-    padding-left: 5%;
-  }
+   .icons {
+
+     display: flex;
+     flex-direction: row;
+     padding-left: 5%;
+   }
 
    .telephone img {
      width: 60px;
      height: auto;
-      padding-right:  2px;
+     padding-right: 2px;
      margin-right: 2%;
    }
 
-   header h1 {
+  
+   .logo_whatsapp_nav img {
 
-     font-size: 27px;
+     margin-left: 14%;
 
    }
-
-   header h2 {
-     font-size: 20px;
-   }
-
-    .logo_whatsapp_nav img {
-
-      margin-left : 14% ;  
-
-}
 
    .logo_tel_nav img {
-    margin-right : 14% ;  
-  }  
+     margin-right: 14%;
+   }
 
    .logo_out {
-text-align: right;
+     text-align: right;
      font-size: 19px;
 
    }
 
+ /*******************Main*********************/
+
+
+   main {
+
+    height: 400vh;
+  }
+
+   /*******************Cadre un*********************/
+
+  .cadre_un {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100vh;
+
+  }
+
    .intro {
 
-     margin-top: 3%;
+     margin-top: 13%;
      margin-bottom: 0;
 
 
    }
 
-   .images_un {
-
-     width: 59%;
-     left: 10%;
-     top: -50%;
-   }
+  .images_un {
+  position: absolute;
+  width: 59%;
+  top: 33%;
+  left: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
+  }
 
 
    .text_intro_ask {
@@ -639,94 +735,151 @@ text-align: right;
      text-align: start;
 
    }
+  /*******************Cadre deux*********************/
+  .cadre_deux {
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+.services_listes{
 
 
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
    .intro_services {
 
      width: 40%;
      left: 20%;
+     z-index: 3;
    }
 
    .liste_services {
-     left: 33%;
-     width: 57%;
-     margin-left: 6%;
+      width: 40%;
+     margin-left: 0%;
      margin-right: 0%;
      font-size: 20px;
+     z-index: 4;
 
+    order: 2;
    }
 
    .images_deux {
-     position: absolute;
-     top: 149%;
-     left: 11%;
-     width: 30%;
+    position: relative;
+      width: 45%;
+      margin-left: 0%;
+     margin-right: 0%;
+     order: 1;
 
-   }
-   
-   .images_trois {
-    width: 40%;
-    left: 16%;
+    }
 
-  }
-main {
+ 
 
-  height: 400vh;
-}
-   .cadre_un {
-     margin-top: auto;
-     margin-bottom: auto;
-     height: 100vh;
+    /*******************Cadre trois*********************/
 
-   }
 
-   .cadre_deux {
-     height: 120vh;
-     margin-top: auto;
-     margin-bottom: auto;
-
-   }
-
+ 
    .cadre_trois {
-     height: 130vh;
      margin-top: auto;
      margin-bottom: auto;
-     margin-bottom: 3%;
+     display: flex;
+     flex-direction: column;
+     padding: 3% 0% 5% 0%;
+
    }
+
+ /********Contact*********/
+
+   .contact {
+
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
 
    .intro_contact {
-     font-size: 31px;
-     width: 60%;
-     margin-left: 38%;
-     margin-right: 0%;
-     text-align: center;
+
+     width: 50%;
    }
 
    .text_contact {
+     width: 100%;
+     padding: 3% 4% 0% 7%;
+     text-align: center;
+     color: darkgray;
+   }
 
+   hr {
+     display: none;
+   }
+
+   .multi_contact {
+
+     display: flex;
+   }
+
+     /********Mail*********/
+
+   .contact_mail {
      width: 40%;
-     top: 11%;
-     margin-left: 55%;
-     margin-right: 0%;
-     font-size: 25px;
-     text-align: start;
+     order: 2;
+     padding: 2%;
+     background-color: white;
+     color: rgb(13, 7, 59);
    }
 
-   .formulaire_contact {
-     position: absolute;
-     width: 50%;
-     top: 289%;
-     left: 5%;
-     height: 90%;
-     padding-top: 6%;
-     padding-bottom: 9%;
+   .mail a {
+     padding-left: 3%;
+   }
+
+   .localisation_phone {
+
+     width: 60%;
+     order: 1;
+     padding: 0% 0% 3% 2%;
+     border-bottom: 1px solid white;
 
    }
 
-   
+   .localisation {
+     padding: 0% 7% 2% 7%;
+     border-top: 1px solid white;
+     border-bottom: 1px solid white;
+   }
+
+
+   .localisation iframe {
+
+     width: 80%;
+     height: 50%;
+     margin-left: auto;
+     margin-right: auto;
+     ;
+   }
+
+  /********Phone & fax*********/
+
+   .phone_fax {
+
+     padding: 2% 7% 2% 7%;
+   }
+
+   .bloc_adresse {
+
+     padding: 2%;
+   }
  }
 
+
+ /***************************/
+/********@Media > 1200*********/
+/***************************/
+
  @media screen and (min-width: 1200px) {
+
+     /*******************Header*******************/
 
 
    header {
@@ -735,30 +888,53 @@ main {
 
    }
 
-    
+   /*******************Cadre un*********************/
+
+
    .intro {
 
      margin-top: 2%;
 
-
    }
 
-   .cadre_deux {
-    height: 120vh;
-   }
 
    .images_un {
-     width: 50%;
+    width: 50%;
 
+  }
+   /*******************Cadre deux*********************/
+
+   .cadre_deux {
+     height: 220vh;
    }
+ 
 
    .images_deux {
-    width: 20%;
-      height: auto;
+     width: 30%;
+     height: auto;
+   }
+          /*******************Cadre trois*********************/
+
+
+
+   .bloc_adresse div {
+
+     padding-left: 8%;
    }
 
-   .images_trois {
-    width: 30%;
-    height: auto;
+   .phone_fax {
+     width: 70%;
+
    }
+
+   .phone_fax div {
+
+     padding-left: 14%;
+
+   }
+
+   .phone_fax p {
+     width: 90%;
+   }
+
  }
