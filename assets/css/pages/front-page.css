@@ -1,182 +1,182 @@
- body {
+body {
 
 
-   background-color: white;
-   display: flex;
-   flex-direction: column;
-   font-family: "Roboto", sans-serif;
-   margin-left: auto;
-   margin-right: auto;
- }
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
 
- /********************************************/
- /*******************Header*******************/
- /********************************************/
- header {
+/********************************************/
+/*******************Header*******************/
+/********************************************/
+header {
 
-   background-color: white;
-   display: flex;
-   flex-direction: column;
-   /*    border-bottom: 1px solid #000;
- */
-   position: fixed;
-   width: 100%;
-   z-index: 15;
-   color: rgb(13, 7, 59);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /*    border-bottom: 1px solid #000;
+*/
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+  color: rgb(13, 7, 59);
 
- }
+}
 
-  /*******************Logo_Header*******************/
+/*******************Logo_Header*******************/
 
- header .logo_header {
-   display: flex;
-   flex-direction: column;
-   margin-right: 0%;
-   margin-top: auto;
-   margin-bottom: auto;
-   padding-left: 0%;
-   background-color: rgb(13, 7, 59);
-   color: white;
-   text-align: center;
+header .logo_header {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 0%;
+  background-color: rgb(13, 7, 59);
+  color: white;
+  text-align: center;
 
- }
+}
 
- header h1 {
-   font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
-   padding-bottom: 0%;
-   text-decoration: none;
-   color: rgb(255, 255, 255);
+header h1 {
+  font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding-bottom: 0%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 
- }
-
-
- header h2 {
-   font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
-   font-size: 1rem;
- }
-
-  /*******************Logo_telephone*******************/
-
- header .telephone {
-
-   display: flex;
-   padding-left: 5%;
-   margin-left: auto;
-   margin-right: auto;
-   width: 100%;
-   justify-content: center;
+}
 
 
- }
+header h2 {
+  font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
 
- .telephone img {
-   height: 40px;
-   width: auto;
+/*******************Logo_telephone*******************/
 
- }
+header .telephone {
 
- .icons {
-   left: -5%;
-   display: flex;
-   margin-right: 2%;
-   flex-direction: column;
- }
-
- .logo_tel_nav {
-
-   margin: auto;
+  display: flex;
+  padding-left: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  justify-content: center;
 
 
- }
+}
 
- .logo_tel_nav img {
-   height: 40px;
-   width: auto;
-   margin-left: auto;
-   margin-right: auto;
-   padding-right: 12%;
+.telephone img {
+  height: 40px;
+  width: auto;
 
- }
+}
 
- .logo_whatsapp_nav {
+.icons {
+  left: -5%;
+  display: flex;
+  margin-right: 2%;
+  flex-direction: column;
+}
 
-   margin: auto;
+.logo_tel_nav {
 
- }
-
- .logo_whatsapp_nav img {
-   height: 40px;
-   width: auto;
-   padding-left: 2%;
-   margin-left: auto;
-   margin-right: auto;
- }
-
- .logo_out {
-   padding-top: 1%;
-   display: flex;
-   flex-direction: column;
-   font-size: 19px;
-   font-family: 'League Spartan', sans-serif;
-   text-decoration: none;
-   padding-left: 3%;
-   color: rgb(13, 7, 59);
+  margin: auto;
 
 
+}
 
- }
+.logo_tel_nav img {
+  height: 40px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 12%;
 
- .tel_nav {
-   font-weight: bold;
-   font-size: 25px;
-   text-decoration: none;
-   color: rgb(13, 7, 59);
- }
+}
+
+.logo_whatsapp_nav {
+
+  margin: auto;
+
+}
+
+.logo_whatsapp_nav img {
+  height: 40px;
+  width: auto;
+  padding-left: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo_out {
+  padding-top: 1%;
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+  font-family: 'League Spartan', sans-serif;
+  text-decoration: none;
+  padding-left: 3%;
+  color: rgb(13, 7, 59);
 
 
 
+}
+
+.tel_nav {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(13, 7, 59);
+}
 
 
- /********************************************/
- /*******************Main*********************/
- /********************************************/
 
- main {
-   background-color: antiquewhite;
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
-   height: 550vh;
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   padding-top: 75px;
-   display: flex;
-   flex-direction: column;
- }
 
-  
- /*******************Cadre un*********************/
- 
- .cadre_un {
 
-   display: flex;
-   flex-wrap: wrap;
-   width: 97%;
-   height: 100vh;
-   background-color: rgb(79, 75, 107);
-   opacity: 0.9;
-   margin-left: auto;
-   margin-right: auto;
-   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-   padding: 5% 0% 5% 0%;
- }
+/********************************************/
+/*******************Main*********************/
+/********************************************/
+
+main {
+  background-color: antiquewhite;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 550vh;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*******************Cadre un*********************/
+
+.cadre_un {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 97%;
+  height: 100vh;
+  background-color: rgb(79, 75, 107);
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+  padding: 5% 0% 5% 0%;
+}
 
 
 /***************************/
- /********Intro*********/
- /***************************/
- .intro {
+/********Intro*********/
+/***************************/
+.intro {
   display: flex;
   flex-direction: column;
   margin-top: auto;
@@ -186,6 +186,7 @@
   width: 100%;
   text-align: center;
   padding: 2% 0% 2% 0%;
+
 }
 
 .text_intro_ask {
@@ -200,7 +201,7 @@
   padding-left: 2%;
   color: white;
   font-size: 30px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+  border: 1px solid white;
   z-index: 2;
 }
 
@@ -216,9 +217,11 @@
   padding: 2% 1% 2% 2%;
   color: rgb(0, 0, 0);
   font-size: 24px;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-/*   border: 1px solid rgb(14, 13, 13);
- */  z-index: 1;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  text-align: center;
+  z-index: 2;
+  border: 10px solid white;
+  z-index: 1;
 
 }
 
@@ -232,36 +235,35 @@
   margin-right: auto;
   width: 70%;
   height: auto;
-  border: 1 solid white;
   top: 1%;
   position: relative;
-  box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-  -moz-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
-  -webkit-box-shadow: 0px 0px 10px 4px rgba(56, 56, 56, 0.77);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  text-align: center;
+  border: 10px solid white;
   z-index: 0;
 }
- 
-
-  /*******************Cadre deux*********************/
 
 
- .cadre_deux {
-   display: flex;
-   flex-wrap: wrap;
-   width: 97%;
-   height: 130vh;
-   background-color: rgb(255, 255, 255);
-   margin-left: auto;
-   margin-right: auto;
-   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-   color: white;
- }
+/*******************Cadre deux*********************/
+
+
+.cadre_deux {
+  display: flex;
+  flex-wrap: wrap;
+  width: 97%;
+  height: 130vh;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+  color: white;
+}
 
 /***************************/
- /********Services*********/
- /***************************/
+/********Services*********/
+/***************************/
 
- .services {
+.services {
   margin-top: auto;
   margin-bottom: auto;
   display: flex;
@@ -285,10 +287,10 @@
   padding-left: 2%;
   color: rgb(0, 0, 0);
   font-size: 23px;
-  box-shadow: rgb(44, 62, 80) 0px -15px 15px -15px;z-index: 1;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   text-align: center;
   z-index: 2;
-
+  border: 10px solid white;
 }
 
 .liste_services {
@@ -302,6 +304,7 @@
   padding: 4% 4% 3% 1%;
   color: white;
   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+  border: 1px solid white;
 
 }
 
@@ -312,206 +315,208 @@
   height: auto;
   top: -1%;
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px 0px, rgba(0, 0, 0, 0.09) 0px 4px 2px 0px, rgba(0, 0, 0, 0.09) 0px 8px 4px 0px, rgba(0, 0, 0, 0.09) 0px 16px 8px 0px, rgba(0, 0, 0, 0.09) 0px 32px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  text-align: center;
   z-index: 0;
   /*   opacity: 0.9;
 */
 }
 
-   /*******************Cadre trois*********************/
+/*******************Cadre trois*********************/
 
- .cadre_trois {
-   display: flex;
-   flex-direction: column;
-   width: 97%;
-   background-color: rgb(79, 75, 107);
-   margin-left: auto;
-   margin-right: auto;
-   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-   padding: 5% 0% 5% 0%;
-   margin-bottom: 3%;
-   color: white;
+.cadre_trois {
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  background-color: rgb(79, 75, 107);
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+  padding: 5% 0% 5% 0%;
+  margin-bottom: 3%;
+  color: white;
 
 
- }
- 
+}
 
- /***************************/
- /********Contact*********/
- /***************************/
 
- .contact {
-   display: flex;
-   flex-direction: column;
+/***************************/
+/********Contact*********/
+/***************************/
 
-   margin-left: auto;
-   margin-right: auto;
-   width: 100%;
-   text-align: center;
+.contact {
+  display: flex;
+  flex-direction: column;
 
- }
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
 
- .intro_contact {
-   width: 90%;
-   opacity: 1;
-   margin-left: auto;
-   margin-right: auto;
-   background-color: rgb(255, 255, 255);
-   position: relative;
-   top: 1%;
-   padding: 1%;
-   padding-left: 2%;
-   color: rgb(79, 75, 107);
-   font-size: 24px;
-   box-shadow: rgb(44, 62, 80) 0px -15px 15px -15px;z-index: 1;
+}
 
-   z-index: 2;
- }
+.intro_contact {
+  width: 90%;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 1%;
+  padding: 1%;
+  padding-left: 2%;
+  color: rgb(79, 75, 107);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  text-align: center;
+  z-index: 2;
+  border: 10px solid white;
+}
 
- .text_contact {
+.text_contact {
 
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   position: relative;
-   top: 1%;
-   padding: 3% 4% 3% 7%;
-   font-size: 16px;
-   text-align: center;
-   z-index: 1;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 1%;
+  padding: 3% 4% 3% 7%;
+  font-size: 16px;
+  text-align: center;
+  z-index: 1;
   color: darkgray;
-  
- }
 
-  /********Mail*********/
+}
 
- .contact_mail {
-   padding: 7%;
-   text-decoration: none;
-   
- }
+/********Mail*********/
 
+.contact_mail {
+  padding: 7%;
+  text-decoration: none;
 
- .intro_mail {
-
-   display: flex;
-   flex-direction: column;
-
- }
-
- .mail {
-   display: flex;
-   flex-direction: row;
-   padding-top: 3%;
-   padding-bottom: 3%;
- }
- .mail a {
-margin-top: auto;
-   margin-bottom: auto;
-   font-size: 21px;
- }
-
- .mail img {
-  padding-right: 5%;   
-   }
-
-  /********Phone & fax*********/
- 
- .phone_fax {
-   padding: 7%;
-
-   display: flex;
-   flex-direction: column;
- }
-
- .phone_fax div {
-
-   display: flex;
-   flex-direction: row;
-   padding-top: 3%;
-   padding-bottom: 3%;
- }
-
- .phone_fax p {
-   width: 80%;
-   margin-top: auto;
-   margin-bottom: auto;
-   padding-left: 3%;
- }
+}
 
 
- .whatsapp img {
+.intro_mail {
 
-   width: 40px;
-   height: 40px;
- }
+  display: flex;
+  flex-direction: column;
 
- .number {
-   font-size: 30px;
+}
 
- }
+.mail {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
-  
- /********Adresse*********/
-  
+.mail a {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 21px;
+}
 
- .localisation {
-   border-top: 1px solid white;
-   border-bottom: 1px solid white;
+.mail img {
+  padding-right: 5%;
+}
 
-   display: flex;
-   padding-top: 2%;
-   flex-direction: column;
-   overflow: hidden;
-   padding-bottom: 6.25%;
-   position: relative;
- }
+/********Phone & fax*********/
 
- .localisation iframe {
+.phone_fax {
+  padding: 7%;
 
-   width: auto;
+  display: flex;
+  flex-direction: column;
+}
 
-   box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-   -moz-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-   -webkit-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
- }
+.phone_fax div {
 
- .bloc_adresse {
-   color: white;
-   padding: 5%;
-   display: flex;
-   flex-direction: column;
- }
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.phone_fax p {
+  width: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 3%;
+}
 
 
- .bloc_adresse div {
+.whatsapp img {
 
-   display: flex;
-   flex-direction: row;
-   padding-top: 3%;
-   padding-bottom: 3%;
- }
+  width: 40px;
+  height: 40px;
+}
 
- .bloc_adresse p {
-   width: 100%;
-   margin-top: auto;
-   margin-bottom: auto;
-   padding-left: 3%;
- }
+.number {
+  font-size: 30px;
 
- .bloc_adresse img {
+}
 
-   width: 40px;
-   height: 40px;
- }
 
- .adress {
-   font-size: 21px;
+/********Adresse*********/
 
- }
 
- 
- .images_trois {
+.localisation {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+  display: flex;
+  padding-top: 2%;
+  flex-direction: column;
+  overflow: hidden;
+  padding-bottom: 6.25%;
+  position: relative;
+}
+
+.localisation iframe {
+
+  width: auto;
+
+  box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+  -moz-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+  -webkit-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+}
+
+.bloc_adresse {
+  color: white;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.bloc_adresse div {
+
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.bloc_adresse p {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 3%;
+}
+
+.bloc_adresse img {
+
+  width: 40px;
+  height: 40px;
+}
+
+.adress {
+  font-size: 21px;
+
+}
+
+
+.images_trois {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -526,415 +531,16 @@ margin-top: auto;
   /*   opacity: 0.9;
 */
 }
- 
- 
- 
 
- footer {
-border-top: 1px solid rgb(255, 255, 255);
+
+
+
+footer {
+  border-top: 1px solid rgb(255, 255, 255);
   height: 40%;
-   font-size: 23px;
-   text-align: center;
-   padding: 2% 1% 2% 1%;
-   background-color: antiquewhite;
-
-  }
-
-
-  /***************************/
- /********@Media > 600*********/
- /***************************/
-
- @media screen and (min-width: 600.98px) {
-
-   /*******************Header*******************/
-
-   header {
-
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: row;
-     padding: 2% 0% 2% 0%;
-   }
-
-   header h1 {
-    font-size: 25px;
-    color: rgb(13, 7, 59);
-
-  }
-
-
-  header h2 {
-    font-size: 22px;
-  }
-
-   header .logo_header {
-
-     width: 50%;
-     text-align: start;
-     padding-left: 3%;
-     margin-left: auto;
-     margin-right: auto;
-     background-color: white;
-     color: rgb(13, 7, 59);
-   }
-
-   header .telephone {
-     width: 50%;
-     padding-left: 13%;
-   }
- 
-
-   .logo_out {
-     width: 80%;
-     font-size: 22px;
-   }
-
-   .logo_tel_nav img {
-     left: 24%;
-   }
-
-   /*******************Cadre un*********************/
-
-   .intro {
-     flex-direction: column;
-     padding-top: 8%;
-
-   }
-
-   .images_un {
-
-
-     width: 70%;
-     height: auto;
-
-
-   }
-
-       /*******************Cadre trois*********************/
-
-   .cadre_trois {
-
-     margin-bottom: 3%;
-   }
-
-
- }
-
-
-/***************************/
-/********@Media > 900*********/
-/***************************/
-
- @media screen and (min-width: 900px) {
-
- /*******************Header*******************/
-
-header {
-    padding: 1% 0% 1% 0%;
-
-  }
-  
-  header h1 {
-
-  font-size: 27px;
+  font-size: 23px;
+  text-align: center;
+  padding: 2% 1% 2% 1%;
+  background-color: antiquewhite;
 
 }
-
-  header h2 {
-    font-size: 20px;
-  }
-
-   header .telephone {
-     padding-right: 4%;
-     flex-direction: row-reverse;
-     color: white;
-
-   }
-
-   .icons {
-
-     display: flex;
-     flex-direction: row;
-     padding-left: 5%;
-   }
-
-   .telephone img {
-     width: 60px;
-     height: auto;
-     padding-right: 2px;
-     margin-right: 2%;
-   }
-
-  
-   .logo_whatsapp_nav img {
-
-     margin-left: 14%;
-
-   }
-
-   .logo_tel_nav img {
-     margin-right: 14%;
-   }
-
-   .logo_out {
-     text-align: right;
-     font-size: 19px;
-
-   }
-
- /*******************Main*********************/
-
-
-   main {
-
-    height: 400vh;
-  }
-
-   /*******************Cadre un*********************/
-
-  .cadre_un {
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 100vh;
-
-  }
-
-   .intro {
-
-     margin-top: 13%;
-     margin-bottom: 0;
-
-
-   }
-
-  .images_un {
-  position: absolute;
-  width: 59%;
-  top: 33%;
-  left: 30%;
-  margin-top: auto;
-  margin-bottom: auto;
-  }
-
-
-   .text_intro_ask {
-     font-size: 25px;
-     width: 40%;
-     margin-left: 5%;
-     margin-right: 0%;
-     text-align: start;
-
-   }
-
-   .text_intro_answer {
-     width: 43%;
-     margin-left: 6%;
-     margin-right: 0%;
-     font-size: 23px;
-     text-align: start;
-
-   }
-  /*******************Cadre deux*********************/
-  .cadre_deux {
-    height: 100vh;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-
-.services_listes{
-
-
-  display: flex;
-  flex-wrap: wrap-reverse;
-}
-   .intro_services {
-
-     width: 40%;
-     left: 20%;
-     z-index: 3;
-   }
-
-   .liste_services {
-      width: 40%;
-     margin-left: 0%;
-     margin-right: 0%;
-     font-size: 20px;
-     z-index: 4;
-
-    order: 2;
-   }
-
-   .images_deux {
-    position: relative;
-      width: 45%;
-      margin-left: 0%;
-     margin-right: 0%;
-     order: 1;
-
-    }
-
- 
-
-    /*******************Cadre trois*********************/
-
-
- 
-   .cadre_trois {
-     margin-top: auto;
-     margin-bottom: auto;
-     display: flex;
-     flex-direction: column;
-     padding: 3% 0% 5% 0%;
-
-   }
-
- /********Contact*********/
-
-   .contact {
-
-     width: 100%;
-     margin-left: auto;
-     margin-right: auto;
-   }
-
-
-   .intro_contact {
-
-     width: 50%;
-   }
-
-   .text_contact {
-     width: 100%;
-     padding: 3% 4% 0% 7%;
-     text-align: center;
-     color: darkgray;
-   }
-
-   hr {
-     display: none;
-   }
-
-   .multi_contact {
-
-     display: flex;
-   }
-
-     /********Mail*********/
-
-   .contact_mail {
-     width: 40%;
-     order: 2;
-     padding: 2%;
-     background-color: white;
-     color: rgb(13, 7, 59);
-   }
-
-   .mail a {
-     padding-left: 3%;
-   }
-
-   .localisation_phone {
-
-     width: 60%;
-     order: 1;
-     padding: 0% 0% 3% 2%;
-     border-bottom: 1px solid white;
-
-   }
-
-   .localisation {
-     padding: 0% 7% 2% 7%;
-     border-top: 1px solid white;
-     border-bottom: 1px solid white;
-   }
-
-
-   .localisation iframe {
-
-     width: 80%;
-     height: 50%;
-     margin-left: auto;
-     margin-right: auto;
-     ;
-   }
-
-  /********Phone & fax*********/
-
-   .phone_fax {
-
-     padding: 2% 7% 2% 7%;
-   }
-
-   .bloc_adresse {
-
-     padding: 2%;
-   }
- }
-
-
- /***************************/
-/********@Media > 1200*********/
-/***************************/
-
- @media screen and (min-width: 1200px) {
-
-     /*******************Header*******************/
-
-
-   header {
-     padding: 1% 0% 1% 0%;
-     color: rgb(13, 7, 59);
-
-   }
-
-   /*******************Cadre un*********************/
-
-
-   .intro {
-
-     margin-top: 2%;
-
-   }
-
-
-   .images_un {
-    width: 50%;
-
-  }
-   /*******************Cadre deux*********************/
-
-   .cadre_deux {
-     height: 220vh;
-   }
- 
-
-   .images_deux {
-     width: 30%;
-     height: auto;
-   }
-          /*******************Cadre trois*********************/
-
-
-
-   .bloc_adresse div {
-
-     padding-left: 8%;
-   }
-
-   .phone_fax {
-     width: 70%;
-
-   }
-
-   .phone_fax div {
-
-     padding-left: 14%;
-
-   }
-
-   .phone_fax p {
-     width: 90%;
-   }
-
- }

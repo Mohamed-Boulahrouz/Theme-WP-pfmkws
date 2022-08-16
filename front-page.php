@@ -81,7 +81,9 @@ if ($ville == "Kremlinbicetre") {
 
         <div class="text_intro_ask">
 
-            Vous recherchez une pompe funèbre musulmane à <span><?= $ville ?> </span> ? </div>
+            Vous recherchez une pompe funèbre musulmane à <span><?= $ville ?> </span> ? 
+        
+        </div>
 
         <div class="text_intro_answer">Les pompes funèbres musulmanes Kitab Wa Sunna interviennent sur votre ville sur simple demande.
         </div>
@@ -109,9 +111,11 @@ if ($ville == "Kremlinbicetre") {
                     <li>Enfin, le rapatriement du défunt vers son pays d’origine où qu’il soit dans le monde</li>
                 </ul>
             </div>
-        </div>
 
-        <div class="images_deux"><img src="<?= get_theme_file_uri() ?>/assets/img/mosquee.jpg" alt="Mosquée"></div>
+
+            <div class="images_deux"> <img src="<?= get_theme_file_uri() ?>/assets/img/mosquee.jpg" alt="Mosquée"> </div>
+
+        </div>
     </section>
 
 </div>

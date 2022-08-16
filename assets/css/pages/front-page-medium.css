@@ -1,0 +1,274 @@
+
+  /***************************/
+  /********@Media > 900*********/
+  /***************************/
+
+  @media screen and (min-width: 900px) {
+
+    /*******************Header*******************/
+
+    header {
+      padding: 1% 0% 1% 0%;
+
+    }
+
+    header h1 {
+
+      font-size: 27px;
+
+    }
+
+    header h2 {
+      font-size: 20px;
+    }
+
+    header .telephone {
+      padding-right: 4%;
+      flex-direction: row-reverse;
+      color: white;
+
+    }
+
+    .icons {
+
+      display: flex;
+      flex-direction: row;
+      padding-left: 5%;
+    }
+
+    .telephone img {
+      width: 60px;
+      height: auto;
+      padding-right: 2px;
+      margin-right: 2%;
+    }
+
+
+    .logo_whatsapp_nav img {
+
+      margin-left: 14%;
+
+    }
+
+    .logo_tel_nav img {
+      margin-right: 14%;
+    }
+
+    .logo_out {
+      text-align: right;
+      font-size: 19px;
+
+    }
+
+ 
+
+    
+    /*******************Cadre un*********************/
+
+
+    .cadre_un {
+      margin-top: 3%;
+      display: block;
+      position: relative;
+      min-height: 500px;
+    }
+
+
+    .intro {
+      position: relative;
+      display: block;
+      margin: auto;
+      min-height: 100%;
+
+    }
+
+
+    .text_intro_ask {
+      position: absolute;
+      top: 37%;
+      width: 40%;
+      text-align: start;
+      font-size: 21px;
+      left: 7%;
+    }
+
+    .text_intro_answer {
+      font-size: 20px;
+      position: absolute;
+      top: 45%;
+      width: 50%;
+      text-align: start;
+      left: 5%;
+
+    }
+
+    .images_un {
+      position: absolute;
+      width: 60%;
+      top: 20%;
+      left: 20%;
+      ;
+    }
+
+
+    /*******************Cadre deux*********************/
+
+
+    .cadre_deux {
+
+      display: block;
+      position: relative;
+      min-height: 500px;
+    }
+
+
+    .services {
+
+      display: block;
+      margin-top: 6%;
+      margin-bottom: 12%;
+      position: relative;
+      margin-bottom: auto;
+      min-height: 100%;
+
+    }
+
+
+    .intro_services {
+      position: absolute;
+      width: 40%;
+      left: 4%;
+      top: 3%;
+
+    }
+
+    .services_listes {
+
+      position: relative;
+
+    }
+
+    .liste_services {
+      width: 50%;
+      position: absolute;
+      left: 41%;
+      font-size: 1.3rem;
+      z-index: 1;
+      margin-top: 4%;
+    }
+
+    .images_deux {
+      position: absolute;
+      left: 15%;
+      max-width: 30%;
+      z-index: 0;
+      margin-top: 4%;
+      border: 10px solid white;
+
+    }
+
+    /*******************Cadre trois*********************/
+
+
+
+    .cadre_trois {
+      margin-top: auto;
+      margin-bottom: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 3% 0% 5% 0%;
+      min-height: 500px;
+      font-size: 1.5rem;
+
+    }
+
+    /********Contact*********/
+
+    .contact {
+
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 2rem;
+
+    }
+
+
+    .intro_contact {
+
+      width: 50%;
+    }
+
+    .text_contact {
+      width: 100%;
+      padding: 2% 4% 0% 7%;
+      text-align: center;
+      color: rgb(196, 167, 167);
+      font-size: 2rem;
+
+    }
+
+    hr {
+      display: none;
+    }
+
+    .multi_contact {
+
+      display: flex;
+    }
+
+    /********Mail*********/
+
+    .contact_mail {
+      width: 45%;
+      order: 2;
+      padding: 2%;
+      background-color: white;
+      color: rgb(13, 7, 59);
+    }
+
+    .mail a {
+      padding-left: 3%;
+    }
+
+    .localisation_phone {
+
+      width: 60%;
+      order: 1;
+      padding: 0% 0% 3% 2%;
+      border-bottom: 1px solid white;
+
+    }
+
+    .localisation {
+      padding: 0% 7% 2% 7%;
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+    }
+
+
+    .localisation iframe {
+
+      width: 80%;
+      height: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      ;
+    }
+
+    /********Phone & fax*********/
+
+    .phone_fax {
+
+      padding: 2% 7% 2% 7%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .bloc_adresse {
+
+      padding: 2%;
+    }
+
+
+  }

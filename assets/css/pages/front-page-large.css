@@ -1,0 +1,74 @@
+
+  /***************************/
+  /********@Media > 1200*********/
+  /***************************/
+
+  @media screen and (min-width: 1200px) {
+
+    /*******************Header*******************/
+
+
+    header {
+      padding: 1% 0% 1% 0%;
+      color: rgb(13, 7, 59);
+
+    }
+
+
+
+    .images_un {
+      top: 10%;
+      left: 25%;
+      width: 50%;
+    }
+
+    .text_intro_ask {
+      top: 52%;
+      left: 4%;
+
+    }
+
+    .text_intro_answer {
+      top: 60%;
+
+
+    }
+
+    .intro_services {
+
+      width: 56%;
+      left: 4%;
+      top: 6%;
+    }
+
+    .images_deux {
+      left: 13%;
+      top: 3%;
+
+    }
+
+    /*******************Cadre trois*********************/
+
+
+
+    .bloc_adresse div {
+
+      padding-left: 8%;
+    }
+
+    .phone_fax {
+      width: 70%;
+
+    }
+
+    .phone_fax div {
+
+      padding-left: 14%;
+
+    }
+
+    .phone_fax p {
+      width: 90%;
+    }
+
+  }

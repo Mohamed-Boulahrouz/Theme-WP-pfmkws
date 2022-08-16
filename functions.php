@@ -17,9 +17,14 @@ function pfmkws_register_assets()
 {
     if (is_front_page()) {
         wp_enqueue_style("front-page-css", get_theme_file_uri("assets/css/pages/front-page.css"));
-
+        wp_enqueue_style("front-page-css-small", get_theme_file_uri("assets/css/pages/front-page-small.css"));
+        wp_enqueue_style("front-page-css-medium", get_theme_file_uri("assets/css/pages/front-page-medium.css"));
+        wp_enqueue_style("front-page-css-medium-large", get_theme_file_uri("assets/css/pages/front-page-large.css"));
 
     wp_register_style("front-page-css", get_theme_file_uri("assets/css/pages/front-page.css"));
+    wp_register_style("front-page-css-small", get_theme_file_uri("assets/css/pages/front-page-small.css"));
+    wp_register_style("front-page-css-medium", get_theme_file_uri("assets/css/pages/front-page-medium.css"));
+    wp_register_style("front-page-css-large", get_theme_file_uri("assets/css/pages/front-page-large.css"));
     wp_register_style('reset', get_theme_file_uri("assets/css/reset.css"));
     /* wp_register_script('boostrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js', [], false, true); */
 
