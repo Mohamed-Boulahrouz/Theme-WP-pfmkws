@@ -1,3 +1,5 @@
+ 
+
 body {
 
 
@@ -42,16 +44,17 @@ header .logo_header {
 }
 
 header h1 {
-  font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Aboreto', cursive;
   padding-bottom: 0%;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  font-weight: bold;
 
 }
 
 
 header h2 {
-  font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Aboreto', cursive;
   font-size: 1rem;
 }
 
@@ -366,7 +369,7 @@ main {
   padding: 1%;
   padding-left: 2%;
   color: rgb(79, 75, 107);
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   text-align: center;
   z-index: 2;
   border: 10px solid white;

@@ -81,7 +81,7 @@ if ($ville == "Kremlinbicetre") {
 
         <div class="text_intro_ask">
 
-            Vous recherchez une pompe funèbre musulmane à <span><?= $ville ?> </span> ? 
+            Vous recherchez une pompe funèbre musulmane à <span><?= $ville ?></span> ? 
         
         </div>
 
