@@ -22,8 +22,9 @@
     $subdomain = $domain[0];
 
     $ville = ucfirst($subdomain);
-    if ($ville == "Kremlinbicetre")
-    { $ville="Kremlin Bicêtre";}
+    if ($ville == "Kremlinbicetre") {
+        $ville = "Kremlin Bicêtre";
+    }
     ?>
 
     <header>
@@ -55,9 +56,48 @@
 
         </section>
 
+
+
+        <nav class="navigation">
+            <div class="flexbox">
+                <form class="search">
+                    <div>
+                        <input type="text" placeholder="Recherche . . ." required>
+                    </div>
+                </form>
+            </div>
+            <div class="container-nav">
+
+                <?php wp_nav_menu(array(
+                    'theme_location'    => 'menu-header',
+                    'menu_class'        => 'nav-list',
+                    'container'         =>  false,
+                    'walker' => new header_menu_walker(),
+                )) ?>
+
+            </div>
+
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+
+
+
+
+
+
+
+
+        </nav>
+
+
+
+
+
     </header>
 
     <main>
 
 
-        <!--     <div class="container"> -->
+        <div class="container">
+
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script src="https://pro.crunchify.com/typed.min.js" type="text/javascript"></script>
