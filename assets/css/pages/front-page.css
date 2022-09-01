@@ -1,549 +1,412 @@
- 
-
-body {
 
 
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  font-family: "Roboto", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-/********************************************/
-/*******************Header*******************/
-/********************************************/
-header {
 
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  /*    border-bottom: 1px solid #000;
+
+ /********************************************/
+ /*******************Main*********************/
+ /********************************************/
+
+ main {
+   background-color: antiquewhite;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: 550vh;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 75px;
+   display: flex;
+   flex-direction: column;
+ }
+
+
+ /*******************Cadre un*********************/
+
+ .cadre_un {
+
+   display: flex;
+   flex-wrap: wrap;
+   width: 97%;
+   height: 100vh;
+   background-color: rgb(79, 75, 107);
+   opacity: 0.9;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+   padding: 5% 0% 5% 0%;
+ }
+
+
+ /***************************/
+ /********Intro*********/
+ /***************************/
+ .intro {
+   display: flex;
+   flex-direction: column;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   text-align: center;
+   padding: 2% 0% 2% 0%;
+
+ }
+
+ .text_intro_ask {
+   width: 90%;
+   opacity: 1;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(61, 57, 52);
+   position: relative;
+   top: 9px;
+   padding: 1%;
+   padding-left: 2%;
+   color: white;
+   font-size: 30px;
+   border: 1px solid white;
+   z-index: 2;
+ }
+
+ .text_intro_answer {
+
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 1;
+   background-color: rgb(255, 242, 226);
+   position: relative;
+   top: 7px;
+   padding: 2% 1% 2% 2%;
+   color: rgb(0, 0, 0);
+   font-size: 24px;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   text-align: center;
+   z-index: 2;
+   border: 10px solid white;
+   z-index: 1;
+
+ }
+
+ .intro span {
+   font-weight: bold;
+
+ }
+
+ .images_un {
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   height: auto;
+   top: 1%;
+   position: relative;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   text-align: center;
+   border: 10px solid white;
+   z-index: 0;
+ }
+
+
+ /*******************Cadre deux*********************/
+
+
+ .cadre_deux {
+   display: flex;
+   flex-wrap: wrap;
+   width: 97%;
+   height: 130vh;
+   background-color: rgb(255, 255, 255);
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+   color: white;
+ }
+
+ /***************************/
+ /********Services*********/
+ /***************************/
+
+ .services {
+   margin-top: auto;
+   margin-bottom: auto;
+   display: flex;
+   flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   padding: 4% 0% 4% 0%;
+ }
+
+ .intro_services {
+
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 1;
+   background-color: rgb(255, 242, 226);
+   position: relative;
+   top: 7px;
+   padding: 1%;
+   padding-left: 2%;
+   color: rgb(0, 0, 0);
+   font-size: 23px;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   text-align: center;
+   z-index: 2;
+   border: 10px solid white;
+ }
+
+ .liste_services {
+
+   width: 85%;
+   opacity: 1;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(61, 57, 52);
+   position: relative;
+   padding: 4% 4% 3% 1%;
+   color: white;
+   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+   border: 1px solid white;
+
+ }
+
+ .images_deux {
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+   height: auto;
+   top: -1%;
+   position: relative;
+   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   text-align: center;
+   z-index: 0;
+   /*   opacity: 0.9;
 */
-  position: fixed;
-  width: 100%;
-  z-index: 15;
-  color: rgb(13, 7, 59);
+ }
 
-}
+ /*******************Cadre trois*********************/
 
-/*******************Logo_Header*******************/
-
-header .logo_header {
-  display: flex;
-  flex-direction: column;
-  margin-right: 0%;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 0%;
-  background-color: rgb(13, 7, 59);
-  color: white;
-  text-align: center;
-
-}
-
-header h1 {
-  font-family: 'Aboreto', cursive;
-  padding-bottom: 0%;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-
-}
+ .cadre_trois {
+   display: flex;
+   flex-direction: column;
+   width: 97%;
+   background-color: rgb(79, 75, 107);
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+   padding: 5% 0% 5% 0%;
+   margin-bottom: 3%;
+   color: white;
 
 
-header h2 {
-  font-family: 'Aboreto', cursive;
-  font-size: 1rem;
-}
-
-/*******************Logo_telephone*******************/
-
-header .telephone {
-
-  display: flex;
-  padding-left: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  justify-content: center;
+ }
 
 
-}
+ /***************************/
+ /********Contact*********/
+ /***************************/
 
-.telephone img {
-  height: 40px;
-  width: auto;
+ .contact {
+   display: flex;
+   flex-direction: column;
 
-}
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   text-align: center;
 
-.icons {
-  left: -5%;
-  display: flex;
-  margin-right: 2%;
-  flex-direction: column;
-}
+ }
 
-.logo_tel_nav {
+ .intro_contact {
+   width: 90%;
+   opacity: 1;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(255, 255, 255);
+   position: relative;
+   top: 1%;
+   padding: 1%;
+   padding-left: 2%;
+   color: rgb(79, 75, 107);
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   text-align: center;
+   z-index: 2;
+   border: 10px solid white;
+ }
 
-  margin: auto;
+ .text_contact {
 
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   top: 1%;
+   padding: 3% 4% 3% 7%;
+   font-size: 16px;
+   text-align: center;
+   z-index: 1;
+   color: darkgray;
 
-}
+ }
 
-.logo_tel_nav img {
-  height: 40px;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 12%;
+ /********Mail*********/
 
-}
+ .contact_mail {
+   padding: 7%;
+   text-decoration: none;
 
-.logo_whatsapp_nav {
-
-  margin: auto;
-
-}
-
-.logo_whatsapp_nav img {
-  height: 40px;
-  width: auto;
-  padding-left: 2%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.logo_out {
-  padding-top: 1%;
-  display: flex;
-  flex-direction: column;
-  font-size: 19px;
-  font-family: 'League Spartan', sans-serif;
-  text-decoration: none;
-  padding-left: 3%;
-  color: rgb(13, 7, 59);
-
-
-
-}
-
-.tel_nav {
-  font-weight: bold;
-  font-size: 25px;
-  text-decoration: none;
-  color: rgb(13, 7, 59);
-}
+ }
 
 
+ .intro_mail {
+
+   display: flex;
+   flex-direction: column;
+
+ }
+
+ .mail {
+   display: flex;
+   flex-direction: row;
+   padding-top: 3%;
+   padding-bottom: 3%;
+ }
+
+ .mail a {
+   margin-top: auto;
+   margin-bottom: auto;
+   font-size: 21px;
+ }
+
+ .mail img {
+   padding-right: 5%;
+ }
+
+ /********Phone & fax*********/
+
+ .phone_fax {
+   padding: 7%;
+
+   display: flex;
+   flex-direction: column;
+ }
+
+ .phone_fax div {
+
+   display: flex;
+   flex-direction: row;
+   padding-top: 3%;
+   padding-bottom: 3%;
+ }
+
+ .phone_fax p {
+   width: 80%;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-left: 3%;
+ }
 
 
+ .whatsapp img {
 
-/********************************************/
-/*******************Main*********************/
-/********************************************/
+   width: 40px;
+   height: 40px;
+ }
 
-main {
-  background-color: antiquewhite;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  height: 550vh;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 75px;
-  display: flex;
-  flex-direction: column;
-}
+ .number {
+   font-size: 30px;
+
+ }
 
 
-/*******************Cadre un*********************/
-
-.cadre_un {
-
-  display: flex;
-  flex-wrap: wrap;
-  width: 97%;
-  height: 100vh;
-  background-color: rgb(79, 75, 107);
-  opacity: 0.9;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-  padding: 5% 0% 5% 0%;
-}
+ /********Adresse*********/
 
 
-/***************************/
-/********Intro*********/
-/***************************/
-.intro {
-  display: flex;
-  flex-direction: column;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align: center;
-  padding: 2% 0% 2% 0%;
+ .localisation {
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
 
-}
+   display: flex;
+   padding-top: 2%;
+   flex-direction: column;
+   overflow: hidden;
+   padding-bottom: 6.25%;
+   position: relative;
+ }
 
-.text_intro_ask {
-  width: 90%;
-  opacity: 1;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(61, 57, 52);
-  position: relative;
-  top: 9px;
-  padding: 1%;
-  padding-left: 2%;
-  color: white;
-  font-size: 30px;
-  border: 1px solid white;
-  z-index: 2;
-}
+ .localisation iframe {
 
-.text_intro_answer {
+   width: auto;
 
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 1;
-  background-color: rgb(255, 242, 226);
-  position: relative;
-  top: 7px;
-  padding: 2% 1% 2% 2%;
-  color: rgb(0, 0, 0);
-  font-size: 24px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  text-align: center;
-  z-index: 2;
-  border: 10px solid white;
-  z-index: 1;
+   box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+   -moz-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+   -webkit-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+ }
 
-}
-
-.intro span {
-  font-weight: bold;
-
-}
-
-.images_un {
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  height: auto;
-  top: 1%;
-  position: relative;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  text-align: center;
-  border: 10px solid white;
-  z-index: 0;
-}
+ .bloc_adresse {
+   color: white;
+   padding: 5%;
+   display: flex;
+   flex-direction: column;
+ }
 
 
-/*******************Cadre deux*********************/
+ .bloc_adresse div {
+
+   display: flex;
+   flex-direction: row;
+   padding-top: 3%;
+   padding-bottom: 3%;
+ }
+
+ .bloc_adresse p {
+   width: 100%;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding-left: 3%;
+ }
+
+ .bloc_adresse img {
+
+   width: 40px;
+   height: 40px;
+ }
+
+ .adress {
+   font-size: 21px;
+
+ }
 
 
-.cadre_deux {
-  display: flex;
-  flex-wrap: wrap;
-  width: 97%;
-  height: 130vh;
-  background-color: rgb(255, 255, 255);
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-  color: white;
-}
-
-/***************************/
-/********Services*********/
-/***************************/
-
-.services {
-  margin-top: auto;
-  margin-bottom: auto;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding: 4% 0% 4% 0%;
-}
-
-.intro_services {
-
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 1;
-  background-color: rgb(255, 242, 226);
-  position: relative;
-  top: 7px;
-  padding: 1%;
-  padding-left: 2%;
-  color: rgb(0, 0, 0);
-  font-size: 23px;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  text-align: center;
-  z-index: 2;
-  border: 10px solid white;
-}
-
-.liste_services {
-
-  width: 85%;
-  opacity: 1;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(61, 57, 52);
-  position: relative;
-  padding: 4% 4% 3% 1%;
-  color: white;
-  box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-  border: 1px solid white;
-
-}
-
-.images_deux {
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  height: auto;
-  top: -1%;
-  position: relative;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  text-align: center;
-  z-index: 0;
-  /*   opacity: 0.9;
+ .images_trois {
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+   height: auto;
+   top: -1%;
+   border: 1 solid white;
+   position: relative;
+   box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+   -moz-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+   -webkit-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
+   z-index: 0;
+   /*   opacity: 0.9;
 */
-}
-
-/*******************Cadre trois*********************/
-
-.cadre_trois {
-  display: flex;
-  flex-direction: column;
-  width: 97%;
-  background-color: rgb(79, 75, 107);
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-  padding: 5% 0% 5% 0%;
-  margin-bottom: 3%;
-  color: white;
-
-
-}
-
-
-/***************************/
-/********Contact*********/
-/***************************/
-
-.contact {
-  display: flex;
-  flex-direction: column;
-
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align: center;
-
-}
-
-.intro_contact {
-  width: 90%;
-  opacity: 1;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(255, 255, 255);
-  position: relative;
-  top: 1%;
-  padding: 1%;
-  padding-left: 2%;
-  color: rgb(79, 75, 107);
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  text-align: center;
-  z-index: 2;
-  border: 10px solid white;
-}
-
-.text_contact {
-
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 1%;
-  padding: 3% 4% 3% 7%;
-  font-size: 16px;
-  text-align: center;
-  z-index: 1;
-  color: darkgray;
-
-}
-
-/********Mail*********/
-
-.contact_mail {
-  padding: 7%;
-  text-decoration: none;
-
-}
-
-
-.intro_mail {
-
-  display: flex;
-  flex-direction: column;
-
-}
-
-.mail {
-  display: flex;
-  flex-direction: row;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-.mail a {
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 21px;
-}
-
-.mail img {
-  padding-right: 5%;
-}
-
-/********Phone & fax*********/
-
-.phone_fax {
-  padding: 7%;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.phone_fax div {
-
-  display: flex;
-  flex-direction: row;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-.phone_fax p {
-  width: 80%;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 3%;
-}
-
-
-.whatsapp img {
-
-  width: 40px;
-  height: 40px;
-}
-
-.number {
-  font-size: 30px;
-
-}
-
-
-/********Adresse*********/
-
-
-.localisation {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-
-  display: flex;
-  padding-top: 2%;
-  flex-direction: column;
-  overflow: hidden;
-  padding-bottom: 6.25%;
-  position: relative;
-}
-
-.localisation iframe {
-
-  width: auto;
-
-  box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-  -moz-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-  -webkit-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-}
-
-.bloc_adresse {
-  color: white;
-  padding: 5%;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.bloc_adresse div {
-
-  display: flex;
-  flex-direction: row;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-.bloc_adresse p {
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-left: 3%;
-}
-
-.bloc_adresse img {
-
-  width: 40px;
-  height: 40px;
-}
-
-.adress {
-  font-size: 21px;
-
-}
-
-
-.images_trois {
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  height: auto;
-  top: -1%;
-  border: 1 solid white;
-  position: relative;
-  box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-  -moz-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-  -webkit-box-shadow: 0px 0px 10px 4px rgb(19, 6, 48);
-  z-index: 0;
-  /*   opacity: 0.9;
-*/
-}
+ }
 
 
 
 
-footer {
-  border-top: 1px solid rgb(255, 255, 255);
-  height: 40%;
-  font-size: 23px;
-  text-align: center;
-  padding: 2% 1% 2% 1%;
-  background-color: antiquewhite;
+ footer {
+   border-top: 1px solid rgb(255, 255, 255);
+   height: 40%;
+   font-size: 23px;
+   text-align: center;
+   padding: 2% 1% 2% 1%;
+   background-color: antiquewhite;
 
-}
+ }

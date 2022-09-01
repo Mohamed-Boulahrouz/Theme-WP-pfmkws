@@ -1,60 +1,102 @@
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
-        <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#"><?php bloginfo('name') ?>></a> -->
-
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <?php wp_nav_menu([
-                    'theme-location' => 'menu-header',
-                    'menu'          => 'Menu',
-                    'container'     => false,
-                    'menu_class' => 'navbar-nav me-auto mb-2 mb-lg-0'
-                ]) ?>
-                <!--
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
+<!-- START: RUBY DEMO HEADER -->
+<div class="ruby-menu-demo-header">
+    <!-- ########################### -->
+    <!-- START: RUBY HORIZONTAL MENU -->
+    <div class="ruby-wrapper">
+        <button class="c-hamburger c-hamburger--htx visible-xs">
+            <span>toggle menu</span>
+        </button>
+        <ul class="ruby-menu">
+            <li class="ruby-active-menu-item"><a href="#">Home</a></li>
+            <li><a href="#">Classic</a>
+                <ul class="">
+                    <li><a href="#">2nd Level #1</a></li>
+                    <li><a href="#">2nd Level #2</a></li>
+                    <li><a href="#">2nd Level #3</a>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-university" aria-hidden="true"></i>3rd Level #1</a>
+                                <ul>
+                                    <li><a href="#">4th Level #1</a></li>
+                                    <li><a href="#">4th Level #2</a></li>
+                                </ul>
+                                <span class="ruby-dropdown-toggle"></span>
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>3rd Level #2</a></li>
+                            <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i>3rd Level #3</a>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>4th Level #1</a></li>
+                                    <li><a href="#"><i class="fa fa-print" aria-hidden="true"></i>4th Level #2</a></li>
+                                    <li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>4th Level #3</a></li>
+                                </ul>
+                                <span class="ruby-dropdown-toggle"></span>
+                            </li>
                         </ul>
+                        <span class="ruby-dropdown-toggle"></span>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                    <li class="ruby-open-to-left"><a href="#">2nd Level #4</a>
+                        <ul>
+                            <li><a href="#">3rd Level #1</a></li>
+                            <li><a href="#">3rd Level #2</a></li>
+                            <li><a href="#">3rd Level #3</a></li>
+                        </ul>
+                        <span class="ruby-dropdown-toggle"></span>
                     </li>
+                    <li><a href="#">2nd Level #5</a></li>
                 </ul>
+                <span class="ruby-dropdown-toggle"></span>
+            </li>
 
-                -->
-                <?= get_search_form() ?>
+           
+            <li class="ruby-menu-right"><a href="#">Right</a>
+                <ul>
+                    <li><a href="#">2nd Level #1</a></li>
+                    <li><a href="#">2nd Level #2</a></li>
+                    <li class="ruby-open-to-left"><a href="#">2nd Level #3</a>
+                        <ul>
+                            <li class="ruby-open-to-left"><a href="#"><i class="fa fa-university" aria-hidden="true"></i>3rd Level #1</a>
+                                <ul>
+                                    <li><a href="#">4th Level #1</a></li>
+                                    <li><a href="#">4th Level #2</a></li>
+                                </ul>
+                                <span class="ruby-dropdown-toggle"></span>
+                            </li>
+                            <li><a href="#"><i class="fa fa-thumbs-up" aria-hidden="true"></i>3rd Level #2</a></li>
+                            <li><a href="#"><i class="fa fa-users" aria-hidden="true"></i>3rd Level #3</a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-file" aria-hidden="true"></i>3rd Level #4</a>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>4th Level #1</a></li>
+                                    <li><a href="#"><i class="fa fa-print" aria-hidden="true"></i>4th Level #2</a></li>
+                                    <li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i>4th Level #3</a></li>
+                                </ul>
+                                <span class="ruby-dropdown-toggle"></span>
+                            </li>
+                        </ul>
+                        <span class="ruby-dropdown-toggle"></span>
+                    </li>
+                    <li class="ruby-open-to-left"><a href="#">2nd Level #4</a>
+                        <ul>
+                            <li><a href="#">3rd Level #1</a></li>
+                            <li><a href="#">3rd Level #2</a></li>
+                            <li><a href="#">3rd Level #3</a></li>
+                        </ul>
+                        <span class="ruby-dropdown-toggle"></span>
+                    </li>
+                    <li><a href="#">2nd Level #5</a></li>
+                </ul>
+                <span class="ruby-dropdown-toggle"></span>
+            </li>
 
-            </div>
+            <li class="ruby-menu-right ruby-menu-social"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>@rubymenu</span></a></li>
 
-        </div>
+            <li class="ruby-menu-right ruby-menu-social"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>/rubymenu</span></a></li>
 
-    </nav>
+            <li class="ruby-menu-right ruby-menu-social ruby-menu-search"><a href="#"><i class="fa fa-search" aria-hidden="true"></i><span><input type="text" name="search" placeholder="Search.."></span></a></li>
 
+        </ul>
+    </div>
+    <!-- END:   RUBY HORIZONTAL MENU -->
+    <!-- ########################### -->
 
-    footer 
-
-    <?php wp_nav_menu([
-                'theme-location'=>'menu-footer',
-                'menu'          =>'Pied de page',
-                'container'     => false,
-                'menu_class' => 'navbar-nav me-auto mb-2 mb-lg-0' ])?>  
+</div>
+<!-- END: RUBY DEMO HEADER -->
