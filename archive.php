@@ -10,7 +10,7 @@
     <?php endwhile;
 else : ?>
 
-    <h1>Pas d'articles à signaler ici, ok ? compris</h1>
+    <h1>Pas d'articles à signaler ici, ok ? compris!</h1>
 
 <?php endif; ?>
 
