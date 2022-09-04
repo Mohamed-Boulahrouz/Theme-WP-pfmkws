@@ -5,6 +5,13 @@
 
   @media screen and (min-width: 1200px) {
 
+
+    .cadre_un {
+
+       
+      height: 60vh;
+      
+    }
    
     .images_un {
       top: 10%;

@@ -76,7 +76,9 @@ if ($ville == "Kremlinbicetre") {
 
 <div class="cadre_un">
 
+<?php get_template_part('parts/carousel')?>
 
+<!-- 
     <section class="intro">
 
         <div class="text_intro_ask">
@@ -91,7 +93,7 @@ if ($ville == "Kremlinbicetre") {
         <div class="images_un"><img src="<?= get_theme_file_uri() ?>/assets/img/lamps.jpg" alt="Lampes"></div>
 
 
-    </section>
+    </section> -->
 </div>
 <div class="cadre_deux">
 

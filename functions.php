@@ -30,7 +30,9 @@ function pfmkws_register_assets()
         wp_enqueue_style("header-medium", get_theme_file_uri("assets/css/layout/header-medium.css")); 
         wp_enqueue_style("header-large", get_theme_file_uri("assets/css/layout/header-large.css")); 
         wp_enqueue_style("navbar", get_theme_file_uri("assets/css/layout/nav.css"));
+        wp_enqueue_style("carousel", get_theme_file_uri("assets/css/layout/carousel.css"));
         wp_enqueue_script( "nav-js", get_theme_file_uri( "assets/js/nav.js" ), [], false, true );
+        wp_enqueue_script( "carousel-js", get_theme_file_uri( "assets/js/carousel.js" ), [], false, true );
 
       
         wp_register_style('reset', get_theme_file_uri("assets/css/reset.css"));
