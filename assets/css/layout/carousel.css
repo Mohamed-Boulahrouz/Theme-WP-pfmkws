@@ -68,7 +68,7 @@
     flex-direction: column;
     flex-grow: 1;
     margin: 0;
-    padding: 0;
+    padding: 10;
   }
   body #scene #left-zone .list li.item input[type="radio"] {
     display: none;
@@ -96,7 +96,7 @@
     width: 50px;
     height: 50px;
     margin-left: 15px;
-    background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/83067-200.png');
+    background-image: url('../../img/service.png');
     background-position: center;
     background-size: 75% 75%;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@
     width: 50px;
     height: 50px;
     margin-left: 15px;
-    background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/53209-200.png');
+    background-image: url('../../img/garanties.png');
     background-position: center;
     background-size: 75% 75%;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@
     width: 50px;
     height: 50px;
     margin-left: 15px;
-    background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/14333-200.png');
+    background-image: url('../../img/perimetre.png');
     background-position: center;
     background-size: 75% 75%;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@
     width: 50px;
     height: 50px;
     margin-left: 15px;
-    background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/9636-200.png');
+    background-image: url('../../img/objectif.png');
     background-position: center;
     background-size: 75% 75%;
     background-repeat: no-repeat;
@@ -432,4 +432,20 @@ filter: blur(2px);
     }
     
     
+    @media (min-width:900px) and  (max-width: 1200px) {
     
+    .label_strawberry{
+
+      background-color: red;
+    }
+    
+    
+    }@media (min-width:800px) and  (max-width: 900px) {
+    
+    .label_strawberry{
+
+      background-color: red;
+    }
+    
+    
+    }

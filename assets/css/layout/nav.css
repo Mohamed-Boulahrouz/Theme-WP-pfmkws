@@ -1,6 +1,6 @@
  .nav-bar {
    height: 70px;
-   background: rgb(13, 7, 59);
+   background:  rgb(79, 75, 107);
  }
 
 
@@ -39,12 +39,13 @@
  nav {
    float: right;
    width: 100%;
-   background-color: rgb(13, 7, 59);
+   background-color:  rgb(79, 75, 107);
    height: 50px;
    display: flex;
    flex-direction: row-reverse;
    align-items: center;
    gap: 1%;
+
  }
 
  nav ul {
@@ -63,7 +64,7 @@
    display: block;
    padding: 0 20px;
    line-height: 50px;
-   background: rgb(13, 7, 59);
+   background:  rgb(79, 75, 107);
    color: #ffffff;
    text-decoration: none;
  }
@@ -71,7 +72,7 @@
  nav ul li a:hover,
  nav ul li a:visited:hover {
    background: white;
-   color: rgb(13, 7, 59);
+   color:  rgb(79, 75, 107);
  }
 
  nav ul li a:not(:only-child):after,
@@ -81,7 +82,7 @@
  }
 
  nav ul li ul li {
-   min-width: 190px;
+   min-width: 100%;
  }
 
  nav ul li ul li a {
@@ -105,8 +106,8 @@
    height: 44px;
    width: 100%;
    box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px 0px, rgb(0 0 0 / 22%) 0px 10px 10px 0px;
-   border-top: 1px solid rgb(13, 7, 59);
-   border-bottom: 1px solid rgb(13, 7, 59);
+   border-top: 1px solid  rgb(79, 75, 107);
+   border-bottom: 1px solid  rgb(79, 75, 107);
  }
 
  @media only screen and (max-width: 900px) {
@@ -145,7 +146,7 @@
    }
 
    nav ul li:nth-child(1) {
-     background-color: rgb(13, 7, 59);
+     background-color:  rgb(79, 75, 107);
      padding-top: 17px;
    }
 
@@ -262,7 +263,7 @@ nav {
    border-radius: 1px;
    height: 3px;
    width: 27px;
-   background: rgb(13, 7, 59);
+   background:  rgb(79, 75, 107);
    position: absolute;
    display: block;
    content: '';
@@ -276,7 +277,7 @@ nav {
    border-radius: 1px;
    height: 4px;
    width: 29px;
-   background: rgb(13, 7, 59);
+   background:  rgb(79, 75, 107);
    position: absolute;
    display: block;
    content: '';
@@ -290,7 +291,7 @@ nav {
    border-radius: 0px;
    height: 4px;
    width: 29px;
-   background: rgb(13, 7, 59);
+   background:  rgb(79, 75, 107);
    position: absolute;
    display: block;
    content: '';
@@ -385,3 +386,6 @@ Search
  .search>div>input:not(:placeholder-shown) {
    width: 180px;
  }
+
+
+ 

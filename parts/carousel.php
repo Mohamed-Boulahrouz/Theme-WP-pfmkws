@@ -127,31 +127,36 @@ if ($ville == "Kremlinbicetre") {
                         </section>
                     </div>
                 </li>
-                <li class="item"><input type="radio" id="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." name="basic_carousel" value="The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." /><label class="label_apple" for="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.">apple</label>
+                <li class="item"><input type="radio" id="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." name="basic_carousel" value="The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus." /><label class="label_apple" for="radio_The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.">Notre périmètre</label>
                     <div class="content content_apple">
                         <!-- <span class="picto"></span> -->
-                       <section class="trois">
-                        <div class="bg_back_trois"></div>
-  
-                        <div class="texte_trois">The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.</p></div> 
+                        <section class="trois">
+                            <div class="bg_back_trois"></div>
+
+                            <div class="texte_trois">The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.</p>
+                            </div>
                         </section>
                     </div>
                 </li>
-                <li class="item"><input type="radio" id="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae." name="basic_carousel" value="The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae." /><label class="label_orange" for="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.">orange</label>
+                <li class="item"><input type="radio" id="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae." name="basic_carousel" value="The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae." /><label class="label_orange" for="radio_The orange (specifically, the sweet orange) is the fruit of the citrus species Citrus × sinensis in the family Rutaceae.">Notre mission</label>
                     <div class="content content_orange">
                         <!-- <span class="picto"></span> -->
                         <section class="quatre">
-                        <div class="bg_back_quatre"></div>
-  
-                        <div class="texte_quatre">The apple tree (Malus domestica) is a deciduous tree in the rose family best known for its sweet, pomaceous fruit, the apple. It is cultivated worldwide as a fruit tree, and is the most widely grown species in the genus Malus.</p></div> 
+                            <div class="bg_back_quatre"></div>
+
+                            <div class="texte_quatre">
+                                <p>Offrir aux <span>familles musulmanes endeuillées</span>  une prestation de qualité dans la pure tradition islamique.
+                                </p>
+                                
+                            </div>
                         </section>
                     </div>
 
                 </li>
 
-                
+
             </ul>
         </div>
-         <div id="right-zone"></div>
+        <div id="right-zone"></div>
     </div>
 </body>
