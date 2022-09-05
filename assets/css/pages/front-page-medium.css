@@ -9,12 +9,12 @@
 
 
     .cadre_un {
-      margin-top: 3%;
+      margin-top: 8%;
       display: block;
       position: relative;
       min-height: 500px;
        
-        height: 100vh;
+        height: 69vh;
        
      
     }
@@ -121,7 +121,7 @@
       margin-bottom: auto;
       display: flex;
       flex-direction: column;
-      padding: 3% 0% 5% 0%;
+      padding: 15% 0% 5% 0%;
       min-height: 500px;
       font-size: 1.5rem;
 

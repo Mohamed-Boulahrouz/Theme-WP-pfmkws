@@ -1,3 +1,7 @@
+* {
+      box-sizing: border-box;
+    }
+
 @keyframes slidein {
     0% {
       top: -400px;
@@ -26,6 +30,11 @@
     -ms-user-select: none;
     user-select: none;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+
   body #scene {
     display: flex;
     align-items: center;
@@ -33,7 +42,7 @@
     width: 100%;
     height: 650px;
     position: absolute;
-    top: 0;
+    top: 70px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -44,12 +53,13 @@
   }
   body #scene #left-zone {
     background: #fff;
-    height: 75%;
+    height: 100%;
     flex-grow: 0;
     display: flex;
-    width: 350px;
+    width: 250px;
     align-items: center;
     justify-content: left;
+    border-right: #000000 1px solid;
   }
   body #scene #left-zone .list {
     display: flex;
@@ -67,9 +77,11 @@
     display: block;
     opacity: 0.5;
     height: 50px;
-    text-align: center;
-    line-height: 50px;
-  }
+    text-align: right;
+    line-height: 49px;
+    padding-right: 12px;
+}
+  
   body #scene #left-zone .list li.item input[type="radio"] ~ label:first-letter {
     text-transform: uppercase;
   }
@@ -127,9 +139,9 @@
   }
   body #scene #left-zone .list li.item input[type="radio"] ~ .content {
     position: absolute;
-    left: 350px;
+    left: 250px;
     top: -650px;
-    width:81%;
+    width:100%;
     height: 100%;
     animation-duration: 0.75s;
     animation-name: slideout;
@@ -138,7 +150,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+  
   body #scene #left-zone .list li.item input[type="radio"] ~ .content.content_strawberry .picto {
     height: 100px;
     width: 100px;
@@ -216,37 +231,205 @@
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
-  body #scene #middle-border {
-    background-color: #eee;
-    height: 75%;
-    flex-grow: 1;
-    max-width: 2px;
-    z-index: 0;
-  }
+ 
   body #scene #right-zone {
     background: #fff;
     height: 100%;
     flex-grow: 3;
+    width: 70%;
   }
    
-  .content_apple {
-background-image: url('../../img/mosquee.jpg');
-background-size: cover;
-    
-  } .content.content_banana {
 
-    background-image: url('../../img/lamps.jpg');
-    background-size: cover;
 
-  } .content.content_orange {
+  .bg_back_un {
 
-    background-image: url('../../img/quran_table.jpg');
-    background-size: cover;
-
-    ;
-  } .content.content_strawberry {
-
-    background-image: url('../../img/mosquee.jpg');
-    background-size: cover;
-
+    background-image: url('../../img/dome_interieur.png');
+     /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(4px);
+   
+    /* Full height */
+    height: 100%;
+   
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
   }
+
+.text_intro_ask{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.7);
+  color: white;
+  font-weight: bold;
+  border: 6px solid #f1f1f1;
+  position: absolute;
+  top: 42%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 46%;
+  padding: 5px 20px;
+  text-align: center;
+}
+   
+  
+  .text_intro_answer{
+    background-color: rgb(0,0,0);
+    background-color: rgb(2 7 53 / 68%);
+        color: white;
+     border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 54%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 66%;
+    padding: 10px;
+    text-align: center;
+    }
+ 
+
+    .bg_back_deux {
+
+      background-image: url('../../img/omeyyades.png');
+      /* Add the blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    } 
+    
+  
+  
+    .intro_liste_services{
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.4);
+      color: white;
+      font-weight: bold;
+      border: 6px solid #f1f1f1;
+      position: absolute;
+      top: 16%;
+      left: 56%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 50%;
+      padding: 5px 20px;
+      text-align: center;
+    }
+    
+    .liste_des_services{
+      background-color: rgb(0,0,0);
+      background-color: rgb(10 19 44 / 77%);
+      color: white;
+      /* font-weight: bold; */
+      border: 2px solid #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 68%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 46%;
+      padding: 14px;
+    }
+
+  .bg_back_trois {
+background-image: url('../../img/africa.png');
+filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+  } 
+.trois{
+
+  height: 100%;
+  width: 100%;
+}
+ .texte_trois {
+
+  background-color: rgb(0,0,0);
+  background-color: rgb(10 19 44 / 77%);
+  color: white;
+  /* font-weight: bold; */
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 46%;
+  padding: 14px;
+ }
+  
+
+  
+   
+
+.bg_back_quatre {
+
+    background-image: url('../../img/minarets.png');
+    filter: blur(8px);
+    -webkit-filter: blur(4px);
+   
+    /* Full height */
+    height: 100%;
+   
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  } 
+
+  .quatre{
+
+    height: 100%;
+    width: 100%;
+  }
+   .texte_quatre {
+  
+    background-color: rgb(0,0,0);
+    background-color: rgb(10 19 44 / 77%);
+    color: white;
+    /* font-weight: bold; */
+    border: 2px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 46%;
+    padding: 14px;
+   }
+    
+  
+    
+    .texte_quatre{
+      background-color: rgb(0,0,0);
+      background-color: rgb(10 19 44 / 77%);
+      color: white;
+      /* font-weight: bold; */
+      border: 2px solid #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 68%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 46%;
+      padding: 14px;
+    }
+    
+    
+    

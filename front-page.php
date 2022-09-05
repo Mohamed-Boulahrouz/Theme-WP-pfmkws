@@ -96,29 +96,9 @@ if ($ville == "Kremlinbicetre") {
     </section> -->
 </div>
 <div class="cadre_deux">
-
-    <section class="services">
-        <div class="intro_services">
-            Notre pompe funèbre vous garantit les services suivants :
-
-        </div>
-        <div class="services_listes">
-            <div class="liste_services">
-                <ul>
-                    <li>Tout d’abord, un accueil personnalisé: réactivité, écoute et soutien</li>
-                    <li>Ensuite, le transport du défunt, de son lieu de décès jusqu’à la chambre funéraire pour les personnes décédées hors de l’hôpital (à domicile).</li>
-                    <li>De plus, les démarches administratives (Hôpitaux, cliniques, funérarium, Mairie, Cimetière, Préfectures, Consulats, douane, etc.)</li>
-                    <li>Les rîtes funéraires dans le respect des prescriptions islamiques : lavage, linceul, prière funéraire (Salat Janaza)</li>
-                    <li>Le transport du défunt jusqu’au cimetière pour l’inhumation en carré musulman (si la ville en dispose).</li>
-                    <li>Enfin, le rapatriement du défunt vers son pays d’origine où qu’il soit dans le monde</li>
-                </ul>
-            </div>
+<?php get_template_part('parts/cards')?>
 
 
-            <div class="images_deux"> <img src="<?= get_theme_file_uri() ?>/assets/img/mosquee.jpg" alt="Mosquée"> </div>
-
-        </div>
-    </section>
 
 </div>
 
