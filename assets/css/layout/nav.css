@@ -100,7 +100,7 @@
  .nav-mobile {
    display: none;
    position: absolute;
-   top: 156px;
+   top: 232px;
    right: 0;
    background: white;
    height: 44px;
@@ -208,7 +208,7 @@
 
   .nav-mobile {
 
-    top: 86%;
+    top: 89%;
     
 }
 
@@ -259,44 +259,44 @@ nav {
  }
 
  #nav-toggle span {
-   cursor: pointer;
-   border-radius: 1px;
-   height: 3px;
-   width: 27px;
-   background:  rgb(79, 75, 107);
-   position: absolute;
-   display: block;
-   content: '';
-   transition: all 300ms ease-in-out;
-   left: 7px;
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 27px;
+  background: rgb(79, 75, 107);
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+  left: 8px;
  }
 
  #nav-toggle span:before {
-   top: -7px;
-   cursor: pointer;
-   border-radius: 1px;
-   height: 4px;
-   width: 29px;
-   background:  rgb(79, 75, 107);
-   position: absolute;
-   display: block;
-   content: '';
-   transition: all 300ms ease-in-out;
-   left: -1px;
+  top: -6px;
+  cursor: pointer;
+  border-radius: 1px;
+  height: 3px;
+  width: 23px;
+  background: rgb(79, 75, 107);
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+  left: 2px;
  }
 
  #nav-toggle span:after {
-   bottom: -7px;
-   cursor: pointer;
-   border-radius: 0px;
-   height: 4px;
-   width: 29px;
-   background:  rgb(79, 75, 107);
-   position: absolute;
-   display: block;
-   content: '';
-   transition: all 300ms ease-in-out;
-   left: -1px;
+  bottom: -6px;
+  cursor: pointer;
+  border-radius: 0px;
+  height: 3px;
+  width: 23px;
+  background: rgb(79, 75, 107);
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+  left: 2px;
  }
 
 
@@ -351,12 +351,12 @@ Search
  .search>div:after {
    content: "";
    background: white;
-   width: 2px;
+   width: 3px;
    height: 13px;
    position: absolute;
    top: 18px;
-   right: 0px;
-   transform: rotate(135deg);
+   right: -2px;
+   transform: rotate(132deg);
  }
 
  .search>div>input {

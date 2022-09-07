@@ -26,16 +26,18 @@
 
  .cadre_un {
 
-   display: flex;
-   flex-wrap: wrap;
-   width: 97%;
-   height: 100vh;
-   background-color: rgb(79, 75, 107);
-   opacity: 0.9;
-   margin-left: auto;
-   margin-right: auto;
-   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-   padding: 5% 0% 5% 0%;
+  display: flex;
+    flex-wrap: wrap;
+    width: 97%;
+    height: 67vh;
+    background-color: rgb(79, 75, 107);
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(44 62 80) -15px 0px 15px -15px, rgb(44 62 80) 15px 0px 15px -15px;
+    position: relative;
+    top: 203px;
+    margin-bottom: 119px;
  }
 
 
@@ -123,6 +125,7 @@
    box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
    color: white;
    top: 110px;
+   position: relative;
  }
 
  /***************************/
@@ -190,16 +193,18 @@
  /*******************Cadre trois*********************/
 
  .cadre_trois {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   background-color: rgb(79, 75, 107);
-   margin-left: auto;
-   margin-right: auto;
-   box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
-   padding: 5% 0% 5% 0%;
-   margin-bottom: 3%;
-   color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(79, 75, 107);
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgb(44 62 80) -15px 0px 15px -15px, rgb(44 62 80) 15px 0px 15px -15px;
+  padding: 5% 0% 5% 0%;
+  margin-bottom: 3%;
+  position: relative;
+  color: white;
+  top: 107px;
 
 
  }
@@ -317,7 +322,7 @@
  }
 
  .number {
-   font-size: 30px;
+   font-size: 1.5rem;
 
  }
 

@@ -1,0 +1,71 @@
+
+
+
+
+
+ /********************************************/
+ /*******************Main*********************/
+ /********************************************/
+
+ main {
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 550vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+ 
+  /*******************Cadre un*********************/
+ 
+  .cadre_un {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 97%;
+    height: 100vh;
+    background-color: white;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(44 62 80) -15px 0px 15px -15px, rgb(44 62 80) 15px 0px 15px -15px;
+    padding: 3% 2% 3% 2%;
+    margin-top: 7%;
+  }
+ 
+ 
+ 
+  /*******************Cadre deux*********************/
+ 
+ 
+  .cadre_deux {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(44, 62, 80) -15px 0px 15px -15px, rgb(44, 62, 80) 15px 0px 15px -15px;
+    color: white;
+    top: 110px;
+  }
+ 
+ 
+ 
+ 
+  footer {
+    border-top: 1px solid rgb(255, 255, 255);
+    height: 40%;
+    font-size: 23px;
+    text-align: center;
+    padding: 2% 1% 2% 1%;
+    background-color: antiquewhite;
+ 
+  }

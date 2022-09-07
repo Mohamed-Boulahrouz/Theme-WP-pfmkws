@@ -31,10 +31,12 @@
     <header>
 
         <section class="logo_header">
-            <a href="https://pompes-funebres-musulmanes.fr/" style="text-decoration: none;">
+              <img class="logo" src="<?= get_theme_file_uri() ?>/assets/img/logo_min.png" alt="Logo">
+          <div class="meta_header"><a href="https://pompes-funebres-musulmanes.fr/" style="text-decoration: none;">
                 <h1><?= bloginfo('name') ?></h1>
             </a>
-            <h2><?= bloginfo('description') ?> </h2>
+            <h2><?= bloginfo('description') ?> </h2></div>
+            
         </section>
         <section class="telephone">
             <div class="icons">
@@ -44,8 +46,8 @@
                 </a>
             </div>
             <div class="logo_out">
-                <p>A votre disposition
-                    <br>24h/24 - 7j/7
+                <p>A votre disposition :
+                    24h/24 - 7j/7
                     <br>
                     <a class="tel_nav" href="tel:+33620202298">06 20 20 22 98</a>
                 </p>
@@ -77,14 +79,9 @@
                 )) ?>
 
             </div>
-            
+
 
             <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-
-
-
-
-
 
 
 

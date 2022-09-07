@@ -102,7 +102,7 @@ if ($ville == "Kremlinbicetre") {
 
 </div>
 
-<div class="cadre_trois">
+<div class="cadre_trois" id="bloc_contact">
 
     <section class="contact">
         <div class="intro_contact">
